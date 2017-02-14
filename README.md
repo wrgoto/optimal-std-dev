@@ -5,6 +5,12 @@ Mark Hoemmen's work, _Computing the standard deviation efficiently_ published Au
 
 ## Usage
 
+Install:
+
+```
+npm install --save optimal-std-dev
+```
+
 Import:
 
 ```javascript
