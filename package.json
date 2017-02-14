@@ -1,0 +1,14 @@
+{
+  "name": "optimal-std-dev",
+  "version": "1.0.2",
+  "description": "Calculate mean, standard deviation, and variance in one loop",
+  "main": "lib/optimal-std-dev.js",
+  "scripts": {
+    "build": "webpack --config webpack.js"
+  },
+  "author": "Will Goto <will.r.goto@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
