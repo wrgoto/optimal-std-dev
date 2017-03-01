@@ -20,7 +20,7 @@ var calcStdDev = require('optimal-std-dev');
 Use with a normal array:
 
 ```javascript
-var calcValues = calcStdDev([1, 2, 3]);
+var calcValues = calcStdDev([1, 2, 3, 10]);
 ```
 
 Use with an accessor provided as a string:
@@ -40,11 +40,12 @@ Returns an object with the following properties:
 
 ```javascript
 {
-  mean: 2.5,
-  popStdDev:  0.5,
-  popVariance:  0.25,
-  sampleStdDev: 0.7071067811865476,
-  sampleVariance:  0.5
+  sum: 16,
+  mean: 4,
+  popStdDev: 3.5355339059327378,
+  popVariance: 12.5,
+  sampleStdDev: 4.08248290463863,
+  sampleVariance: 16.666666666666668
 }
 ```
 

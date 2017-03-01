@@ -15,14 +15,16 @@ function calcStdDev(arr, accessor) {
     }
   }, { Sg: 0, Mk: 0, Qk: 0 });
 
+  var t = I.Sg;
   var n = arr.length;
-  var m = I.Sg / n;
+  var m = t / n;
   var s2 = I.Qk / (n - 1);
   var s = Math.sqrt(s2);
   var o2 = I.Qk / n;
   var o = Math.sqrt(o2);
 
   return {
+    sum: t,
     mean: m,
     popStdDev: o,
     popVariance: o2,
@@ -30,5 +32,7 @@ function calcStdDev(arr, accessor) {
     sampleVariance: s2
   };
 }
+
+console.log(calcStdDev([1, 2, 3, 10]));
 
 module.exports = calcStdDev;
