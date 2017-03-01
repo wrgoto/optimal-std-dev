@@ -1,6 +1,6 @@
 {
   "name": "optimal-std-dev",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Calculate mean, standard deviation, and variance in one loop",
   "main": "lib/optimal-std-dev.js",
   "scripts": {

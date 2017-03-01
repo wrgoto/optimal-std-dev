@@ -33,6 +33,4 @@ function calcStdDev(arr, accessor) {
   };
 }
 
-console.log(calcStdDev([1, 2, 3, 10]));
-
 module.exports = calcStdDev;
